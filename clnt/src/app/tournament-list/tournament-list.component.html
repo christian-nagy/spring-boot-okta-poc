@@ -1,0 +1,17 @@
+<mat-card>
+<mat-card-title>Tournaments List</mat-card-title>
+<mat-card-content>
+  <mat-list>
+    <mat-list-item *ngFor="let tournament of tournaments" class="link"
+                   [routerLink]="['/tournaments', tournament.id]">
+      {{tournament.name}}
+    </mat-list-item>
+    <mat-list-item *ngIf="!tournaments || tournaments?.length === 0">
+      <p>No tournaments found.</p>
+    </mat-list-item>
+  </mat-list>
+  <button mat-fab color="accent" class="btn-add" routerLink="add">
+    <mat-icon>add circle</mat-icon>
+  </button>
+</mat-card-content>
+</mat-card>

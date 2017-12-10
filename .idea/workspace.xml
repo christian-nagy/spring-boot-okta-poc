@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8ebdcf4-765b-4e78-aff0-c4a17a284629" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/assets/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/.angular-cli.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/e2e/app.e2e-spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/e2e/app.po.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/e2e/tsconfig.e2e.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/protractor.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/app.component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/app.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/app.component.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/app.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/app.module.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/login/login.component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/login/login.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/login/login.component.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/login/login.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/shared/okta/okta.guard.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/shared/okta/okta.interceptor.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/shared/okta/okta.service.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/shared/okta/okta.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/shared/tournament/tournament.service.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/shared/tournament/tournament.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/tournament-detail/tournament-detail.component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/tournament-detail/tournament-detail.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/tournament-detail/tournament-detail.component.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/tournament-detail/tournament-detail.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/tournament-list/tournament-list.component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/tournament-list/tournament-list.component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/tournament-list/tournament-list.component.spec.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/app/tournament-list/tournament-list.component.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/environments/environment.prod.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/environments/environment.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/main.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/polyfills.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/test.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/tsconfig.app.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/tsconfig.spec.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clnt/src/typings.d.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/spring-boot-okta-poc.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,6 +136,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/clnt/node_modules" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="8" />
     <option name="y" value="22" />
@@ -121,6 +170,24 @@
             <path>
               <item name="spring-boot-okta-poc" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-okta-poc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-okta-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-okta-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="clnt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-okta-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-okta-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="clnt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-okta-poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-okta-poc" type="462c0819:PsiDirectoryNode" />
+              <item name="clnt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-okta-poc" type="b2602c69:ProjectViewProjectNode" />
@@ -281,7 +348,7 @@
       <workItem from="1512944178068" duration="693000" />
       <workItem from="1512944879964" duration="428000" />
       <workItem from="1512945548145" duration="234000" />
-      <workItem from="1512945987272" duration="57000" />
+      <workItem from="1512945987272" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="Init gateway">
       <created>1512944520767</created>
@@ -311,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512945241445</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Init client">
+      <created>1512946048167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1512946048167</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1794000" />
+    <option name="totallyTimeSpent" value="2029000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />

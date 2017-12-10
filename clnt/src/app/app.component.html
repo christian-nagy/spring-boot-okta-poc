@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+  <span><a routerLink="/">{{title}}</a></span>
+  <span class="fill-remaining-space"></span>
+  <span *ngIf="user">
+    Welcome {{user?.name}}!
+    <button mat-button (click)="oktaService.logout()">Logout</button>
+  </span>
+</mat-toolbar>
+
+<router-outlet [hidden]="!user"></router-outlet>

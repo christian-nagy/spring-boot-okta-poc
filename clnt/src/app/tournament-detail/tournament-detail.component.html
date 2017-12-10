@@ -1,0 +1,26 @@
+<form #editForm="ngForm" (ngSubmit)="onSubmit(editForm.value)">
+  <input type="hidden" name="href" [(ngModel)]="tournament.href">
+  <mat-card>
+    <mat-card-title>
+      {{tournament?.href ? 'Edit Tournament' : 'Add Tournament'}}
+    </mat-card-title>
+    <mat-card-content>
+      <mat-input-container>
+          <textarea matInput placeholder="Tournament" cols="50" rows="5" name="name"
+                    required #name="ngModel" [(ngModel)]="tournament.name"></textarea>
+      </mat-input-container>
+      <div [hidden]="name.valid || name.pristine">
+        Name is required
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary"
+              [disabled]="!editForm.form.valid">Save
+      </button>
+      <button mat-button color="warn" *ngIf="tournament?.href"
+              (click)="remove(tournament.href)">Delete
+      </button>
+      <a mat-button routerLink="/tournaments">Cancel</a>
+    </mat-card-actions>
+  </mat-card>
+</form>
