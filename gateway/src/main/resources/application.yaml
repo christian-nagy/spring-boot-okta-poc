@@ -19,3 +19,4 @@ zuul:
       path: /pokta/**
       serviceId: pokta
       stripPrefix: true
+      sensitiveHeaders:
