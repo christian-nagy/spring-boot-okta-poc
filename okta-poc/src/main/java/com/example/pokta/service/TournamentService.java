@@ -3,6 +3,7 @@ package com.example.pokta.service;
 import com.example.pokta.model.Tournament;
 import com.example.pokta.model.TournamentRepository;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
 import java.util.Collection;
@@ -12,12 +13,20 @@ import java.util.Collection;
 public class TournamentService {
 
     private final TournamentRepository tournamentRepository;
+    private final AuthProvider authService;
 
-    public TournamentService(TournamentRepository tournamentRepository) {
+    public TournamentService(TournamentRepository tournamentRepository, AuthProvider authService) {
         this.tournamentRepository = tournamentRepository;
+        this.authService = authService;
     }
 
     public Collection<Tournament> findAll() {
+
+        Authentication authentication = authService.getAuthentication();
+        authentication.getAuthorities().forEach(a -> {
+            log.info("Authority role: '{}'", a.getAuthority());
+        });
+
         return tournamentRepository.findAll();
     }
 

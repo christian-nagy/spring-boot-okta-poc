@@ -9,8 +9,8 @@ export class OktaService {
 
   signIn = new OktaSignIn({
     baseUrl: 'https://dev-135170.oktapreview.com',
-    clientId: '0oad6zufqgCbXwaxm0h7',
-    redirectUri: 'http://localhost:4200',
+    clientId: '0oad6zufqgCbXwaxm0h7', // TODO: is this safe
+    redirectUri: 'http://localhost:4200', // TODO: do not use localhost and port
     authParams: {
       issuer: 'https://dev-135170.oktapreview.com/oauth2/default',
       responseType: ['id_token', 'token'],

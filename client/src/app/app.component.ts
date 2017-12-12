@@ -19,6 +19,7 @@ export class AppComponent implements OnInit {
     }
 
     this.oktaService.user$.subscribe(user => {
+      console.log(user);
       this.user = user;
     });
   }
