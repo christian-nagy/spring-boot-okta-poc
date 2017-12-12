@@ -20,7 +20,7 @@
 
     <modules>
         <module>gateway</module>
-        <module>pokta</module>
+        <module>okta-poc</module>
     </modules>
 
     <build>
