@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: waggle-gateway
+  cloud.consul:
+    host: localhost
+    port: 8500
+server:
+  port: 8088
+
+zuul:
+  routes:
+    waggle:
+      path: /waggle/**
+      stripPrefix: false
+      serviceId: GolfWaggle
+      sensitiveHeaders:
