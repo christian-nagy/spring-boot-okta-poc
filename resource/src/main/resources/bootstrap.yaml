@@ -1,0 +1,7 @@
+
+okta:
+  oauth2:
+    issuer: https://dev-135170.oktapreview.com/oauth2/ausdbr2bftZGfoPf80h7
+    audience: api/resource
+    clientId: 0oadbkm00tfESrJtA0h7
+    clientSecret: XgWiMZx8vvCf5D_H_jIi7LSe1opcbbptY_82Fmel
