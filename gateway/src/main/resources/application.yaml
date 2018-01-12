@@ -7,11 +7,11 @@ spring:
 server:
   port: 8081
 
-okta:
-  oauth:
-    issuer: https://dev-135170.oktapreview.com/oauth2/default
-    audience: api://default
-    clientId: 0oad6zufqgCbXwaxm0h7
+#okta:
+#  oauth:
+#    issuer: https://dev-135170.oktapreview.com/oauth2/default
+#    audience: api://default
+#    clientId: 0oad6zufqgCbXwaxm0h7
 
 zuul:
   routes:

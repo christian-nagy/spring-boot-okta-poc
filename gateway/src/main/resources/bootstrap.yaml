@@ -1,0 +1,7 @@
+
+okta:
+  oauth:
+    issuer: https://dev-135170.oktapreview.com/oauth2/default
+    audience: api://default
+    clientId: 0oad8tlvv1P9cIyNF0h7
+    clientSecret: utzXOO79o0e4o-wmbRuN3pkbVISo8vqW0NyhYz4j
